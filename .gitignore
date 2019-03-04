@@ -126,3 +126,14 @@ fabric.properties
 # Editor-based Rest Client
 .idea/httpRequests
 
+"example/build\\ios/"
+example/ios/.symlinks/
+example/ios/Flutter/App.framework/
+example/ios/Flutter/Flutter.framework/
+example/ios/Frameworks/
+example/ios/Podfile
+example/ios/Podfile.lock
+example/ios/Pods/
+example/ios/Runner.xcworkspace/xcshareddata/
+example/ios/Runner.xcworkspace/xcuserdata/
+example/ios/ServiceDefinitions.json

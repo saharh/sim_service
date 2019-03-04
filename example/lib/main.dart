@@ -52,7 +52,7 @@ class _MyAppState extends State<MyApp> {
             ),
             body: Column(
               children: <Widget>[
-                Text('the main sim card is ${_simData?.carrierName}, country: ${_simData?.countyCode}'),
+                Text('the main sim card is ${_simData?.carrierName}, country: ${_simData?.countyCode}, mcc: ${_simData?.mcc}, mnc: ${_simData?.mnc},'),
 //                Padding(
 //                  padding: EdgeInsets.all(20.0),
 //                  child: Column(
