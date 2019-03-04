@@ -24,8 +24,8 @@
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
-    <output url="file://$MODULE_DIR$/../example/build/sim_service/intermediates/classes/debug" />
-    <output-test url="file://$MODULE_DIR$/../example/build/sim_service/intermediates/classes/test/debug" />
+    <output url="file://$MODULE_DIR$/../example/build/sim_service/intermediates/javac/debug/compileDebugJavaWithJavac/classes" />
+    <output-test url="file://$MODULE_DIR$/../example/build/sim_service/intermediates/javac/debugUnitTest/compileDebugUnitTestJavaWithJavac/classes" />
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src/debug/res" type="java-resource" />
@@ -35,13 +35,6 @@
       <sourceFolder url="file://$MODULE_DIR$/src/debug/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/rs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/shaders" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/testDebug/res" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/testDebug/resources" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/testDebug/assets" type="java-test-resource" />
@@ -49,6 +42,13 @@
       <sourceFolder url="file://$MODULE_DIR$/src/testDebug/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/testDebug/rs" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/testDebug/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/assets" type="java-resource" />
@@ -73,64 +73,79 @@
     </content>
     <content url="file://$MODULE_DIR$/../example/build/sim_service">
       <sourceFolder url="file://$MODULE_DIR$/../example/build/sim_service/generated/source/apt/debug" isTestSource="false" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../example/build/sim_service/generated/source/r/debug" isTestSource="false" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../example/build/sim_service/generated/source/aidl/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../example/build/sim_service/generated/aidl_source_output_dir/debug/compileDebugAidl/out" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../example/build/sim_service/generated/source/buildConfig/debug" isTestSource="false" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../example/build/sim_service/generated/source/rs/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../example/build/sim_service/generated/renderscript_source_output_dir/debug/compileDebugRenderscript/out" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../example/build/sim_service/generated/res/rs/debug" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/../example/build/sim_service/generated/res/resValues/debug" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/../example/build/sim_service/generated/source/apt/androidTest/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../example/build/sim_service/generated/source/r/androidTest/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../example/build/sim_service/generated/source/aidl/androidTest/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../example/build/sim_service/generated/aidl_source_output_dir/debugAndroidTest/compileDebugAndroidTestAidl/out" isTestSource="true" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../example/build/sim_service/generated/source/buildConfig/androidTest/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../example/build/sim_service/generated/source/rs/androidTest/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../example/build/sim_service/generated/renderscript_source_output_dir/debugAndroidTest/compileDebugAndroidTestRenderscript/out" isTestSource="true" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../example/build/sim_service/generated/res/rs/androidTest/debug" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/../example/build/sim_service/generated/res/resValues/androidTest/debug" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/../example/build/sim_service/generated/source/apt/test/debug" isTestSource="true" generated="true" />
-      <excludeFolder url="file://$MODULE_DIR$/../example/build/sim_service/intermediates/annotations" />
-      <excludeFolder url="file://$MODULE_DIR$/../example/build/sim_service/intermediates/attr" />
-      <excludeFolder url="file://$MODULE_DIR$/../example/build/sim_service/intermediates/bundles" />
-      <excludeFolder url="file://$MODULE_DIR$/../example/build/sim_service/intermediates/check-manifest" />
-      <excludeFolder url="file://$MODULE_DIR$/../example/build/sim_service/intermediates/classes" />
-      <excludeFolder url="file://$MODULE_DIR$/../example/build/sim_service/intermediates/extractedTypedefs" />
+      <excludeFolder url="file://$MODULE_DIR$/../example/build/sim_service/generated/not_namespaced_r_class_sources" />
+      <excludeFolder url="file://$MODULE_DIR$/../example/build/sim_service/generated/source/r" />
+      <excludeFolder url="file://$MODULE_DIR$/../example/build/sim_service/intermediates/aapt_friendly_merged_manifests" />
+      <excludeFolder url="file://$MODULE_DIR$/../example/build/sim_service/intermediates/annotation_processor_list" />
+      <excludeFolder url="file://$MODULE_DIR$/../example/build/sim_service/intermediates/annotations_typedef_file" />
+      <excludeFolder url="file://$MODULE_DIR$/../example/build/sim_service/intermediates/annotations_zip" />
+      <excludeFolder url="file://$MODULE_DIR$/../example/build/sim_service/intermediates/check_manifest_result" />
+      <excludeFolder url="file://$MODULE_DIR$/../example/build/sim_service/intermediates/compile_only_not_namespaced_r_class_jar" />
+      <excludeFolder url="file://$MODULE_DIR$/../example/build/sim_service/intermediates/consumer_proguard_file" />
       <excludeFolder url="file://$MODULE_DIR$/../example/build/sim_service/intermediates/incremental" />
       <excludeFolder url="file://$MODULE_DIR$/../example/build/sim_service/intermediates/intermediate-jars" />
-      <excludeFolder url="file://$MODULE_DIR$/../example/build/sim_service/intermediates/javaPrecompile" />
+      <excludeFolder url="file://$MODULE_DIR$/../example/build/sim_service/intermediates/javac" />
       <excludeFolder url="file://$MODULE_DIR$/../example/build/sim_service/intermediates/jniLibs" />
       <excludeFolder url="file://$MODULE_DIR$/../example/build/sim_service/intermediates/library_and_local_jars_jni" />
-      <excludeFolder url="file://$MODULE_DIR$/../example/build/sim_service/intermediates/lint" />
-      <excludeFolder url="file://$MODULE_DIR$/../example/build/sim_service/intermediates/manifests" />
-      <excludeFolder url="file://$MODULE_DIR$/../example/build/sim_service/intermediates/packaged-aidl" />
+      <excludeFolder url="file://$MODULE_DIR$/../example/build/sim_service/intermediates/library_assets" />
+      <excludeFolder url="file://$MODULE_DIR$/../example/build/sim_service/intermediates/library_manifest" />
+      <excludeFolder url="file://$MODULE_DIR$/../example/build/sim_service/intermediates/lint_jar" />
+      <excludeFolder url="file://$MODULE_DIR$/../example/build/sim_service/intermediates/merged_manifests" />
       <excludeFolder url="file://$MODULE_DIR$/../example/build/sim_service/intermediates/packaged-classes" />
-      <excludeFolder url="file://$MODULE_DIR$/../example/build/sim_service/intermediates/packagedAssets" />
       <excludeFolder url="file://$MODULE_DIR$/../example/build/sim_service/intermediates/packaged_res" />
       <excludeFolder url="file://$MODULE_DIR$/../example/build/sim_service/intermediates/public_res" />
-      <excludeFolder url="file://$MODULE_DIR$/../example/build/sim_service/intermediates/publish-proguard" />
       <excludeFolder url="file://$MODULE_DIR$/../example/build/sim_service/intermediates/res" />
       <excludeFolder url="file://$MODULE_DIR$/../example/build/sim_service/intermediates/rs" />
+      <excludeFolder url="file://$MODULE_DIR$/../example/build/sim_service/intermediates/shader_assets" />
       <excludeFolder url="file://$MODULE_DIR$/../example/build/sim_service/intermediates/shaders" />
       <excludeFolder url="file://$MODULE_DIR$/../example/build/sim_service/intermediates/symbols" />
       <excludeFolder url="file://$MODULE_DIR$/../example/build/sim_service/intermediates/transforms" />
-      <excludeFolder url="file://$MODULE_DIR$/../example/build/sim_service/intermediates/typedefs.txt" />
       <excludeFolder url="file://$MODULE_DIR$/../example/build/sim_service/outputs" />
       <excludeFolder url="file://$MODULE_DIR$/../example/build/sim_service/tmp" />
     </content>
     <orderEntry type="jdk" jdkName="Android API 27 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Gradle: android.arch.lifecycle:common:1.1.0@jar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:support-fragment-27.1.0" level="project" />
-    <orderEntry type="library" name="Gradle: android.arch.core:runtime-1.1.0" level="project" />
-    <orderEntry type="library" name="Gradle: android.arch.lifecycle:viewmodel-1.1.0" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:support-compat-27.1.0" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:support-v4-27.1.0" level="project" />
-    <orderEntry type="library" name="Gradle: android.arch.lifecycle:livedata-core-1.1.0" level="project" />
-    <orderEntry type="library" name="Gradle: __local_aars__:C.\Program Files\flutter\bin\cache\artifacts\engine\android-arm\flutter.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:support-media-compat-27.1.0" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:support-annotations:27.1.0@jar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:support-core-utils-27.1.0" level="project" />
-    <orderEntry type="library" name="Gradle: android.arch.core:common:1.1.0@jar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:support-core-ui-27.1.0" level="project" />
-    <orderEntry type="library" name="Gradle: android.arch.lifecycle:runtime-1.1.0" level="project" />
-    <orderEntry type="library" name="Gradle: android-android-27" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.swiperefreshlayout:swiperefreshlayout:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.legacy:legacy-support-core-ui:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.viewpager:viewpager:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.loader:loader:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.drawerlayout:drawerlayout:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.documentfile:documentfile:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.localbroadcastmanager:localbroadcastmanager:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-runtime:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-livedata-core:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.cursoradapter:cursoradapter:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-livedata:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.customview:customview:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.core:core:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.asynclayoutinflater:asynclayoutinflater:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.interpolator:interpolator:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.fragment:fragment:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-common:2.0.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.legacy:legacy-support-core-utils:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.print:print:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.versionedparcelable:versionedparcelable:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-viewmodel:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.slidingpanelayout:slidingpanelayout:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.arch.core:core-common:2.0.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.media:media:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.annotation:annotation:1.0.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.coordinatorlayout:coordinatorlayout:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:D.\Develop\flutter\bin\cache\artifacts\engine\android-arm\flutter.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.legacy:legacy-support-v4:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.arch.core:core-runtime:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.collection:collection:1.0.0@jar" level="project" />
   </component>
 </module>

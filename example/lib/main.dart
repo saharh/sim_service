@@ -52,27 +52,27 @@ class _MyAppState extends State<MyApp> {
             ),
             body: Column(
               children: <Widget>[
-                Text('the main sim card is ${_simData.carrierName}'),
-                Padding(
-                  padding: EdgeInsets.all(20.0),
-                  child: Column(
-                    children: _simData.cards.map((SimCard card) {
-                      return Container(
-                        child: Center(
-                          child: Column(
-                            children: <Widget>[
-                              Text(card.carrierName),
-                              Text(card.displayName),
-                              Text(card.countryCode),
-                              Text(card.deviceId),
-                              Text('data roaming is ${card.isDataRoaming}')
-                            ],
-                          ),
-                        ),
-                      );
-                    }).toList(),
-                  ),
-                )
+                Text('the main sim card is ${_simData?.carrierName}, country: ${_simData?.countyCode}'),
+//                Padding(
+//                  padding: EdgeInsets.all(20.0),
+//                  child: Column(
+//                    children: _simData.cards.map((SimCard card) {
+//                      return Container(
+//                        child: Center(
+//                          child: Column(
+//                            children: <Widget>[
+//                              Text(card.carrierName),
+//                              Text(card.displayName),
+//                              Text(card.countryCode),
+//                              Text(card.deviceId),
+//                              Text('data roaming is ${card.isDataRoaming}')
+//                            ],
+//                          ),
+//                        ),
+//                      );
+//                    }).toList(),
+//                  ),
+//                )
               ],
             )));
   }
